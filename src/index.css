@@ -1,0 +1,629 @@
+/* react comienso */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+body {
+  margin: 0;
+  
+  background: #f9f9f9
+}
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  
+}
+.me-2{
+  justify-content: center;
+  text-align: center;
+}
+/* react fin */
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar */
+
+#basic-nava-dropdown-{
+  color: white;
+}
+.headerFoto{
+  width: 80px;
+}
+.header{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  left: 50px;
+}
+.OtrosNav{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 80px;
+}
+
+.NavDerecha{
+
+  margin-left: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-dark{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: transform 0.4s
+}
+
+/* .bg:hover{
+  
+} */
+
+
+/* modal de productos nacionales */
+
+.descripcionProductos{
+  text-align: justify;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.tituloProductos{
+
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.botonProducto{
+  padding: 10px;
+  width: 80px;
+}
+ /* CARTAS DE TODOS LADOS */
+.cartas{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+  margin-top: 10px;
+  background-color: #f9f9f9
+}
+.foto-prod {
+  height: 250px;
+}
+.cardMain{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:20px; 
+  margin-top: 20px;
+  margin-right: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.466);
+  cursor: default;
+  transition: all 400ms ease;
+  background-color: white;
+} 
+.cardMain:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+}  
+
+
+
+/* MAIN */
+.carrousel{
+  max-width: 100%;
+}
+.masInfo{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.h3-productos-destacados{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-size: 40px;
+}
+
+ /* PAGES SUPLEMENTOS */
+.bodyProteinas{
+  /* background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 6%, rgba(210,211,218,1) 38%, rgba(0,0,0,1) 84%); */
+  background: rgb(185,147,90);
+  background: linear-gradient(90deg, rgba(185,147,90,1) 15%, rgba(239,184,16,1) 50%, rgba(128,64,0,1) 91%);
+  height: 100vh;
+}
+
+.bodyAminoacidos{
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 8%, rgba(23,68,0,1) 49%, rgba(153,255,51,1) 92%);
+}
+
+.bodyPreWork{
+  background: rgb(249,255,0);
+  background: linear-gradient(90deg, rgba(249,255,0,1) 8%, rgba(0,0,0,1) 50%, rgba(42,7,149,1) 95%); 
+
+}
+
+.bodyCreatinas{
+  background: rgb(152,1,1);
+  background: linear-gradient(90deg, rgba(152,1,1,1) 0%, rgba(0,0,0,1) 50%, rgba(0,17,123,1) 100%);
+}
+
+.bodyCarnitinas{
+  background: rgb(3,246,239);
+  background: linear-gradient(90deg, rgba(3,246,239,1) 0%, rgba(2,112,78,1) 50%, rgba(6,255,131,1) 100%);
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  zoom: 80%;
+  margin-left: 10%;
+}
+.image {
+  width: 50%; 
+  object-fit: cover;
+  height: 100%; 
+  transition: transform 0.3s; 
+  transition: filter 0.5s;
+} 
+.image-text2 {
+  position: absolute;
+  top: 50%;
+  left: 72%;
+  transform: translate(-50%, -50%); 
+  color: #ffffff; 
+  background-color: rgba(0, 0, 0, 0.845);
+  padding: 1%; 
+  border-radius: 5px; 
+  text-align: center; 
+}
+.image-text{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%); 
+  color: #ffffff; 
+  background-color: rgba(0, 0, 0, 0.845);
+  padding: 1%; 
+  border-radius: 5px; 
+  text-align: center; 
+}
+.image:hover{
+  filter: brightness(0.3);
+}
+.desc-cartas-proteinas{
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+} 
+.titulo-prot-nac{
+  text-align: center;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+
+/* FOOTER */
+.desc-footer{
+  justify-content: center;
+  text-align: center;
+}
+.logoJockey{
+  width: 100px;
+  height: 75px;
+  padding-top: 10px;
+  padding: 5px;
+
+}
+
+
+
+
+/* ----PRODUCTOS DESTACADOS DEL MAIN----  */
+/* ----AMINOACIDOS DESTACADOS---- */
+
+.flex-container {
+  display: flex;
+  height: 80%;
+  align-items: center; 
+  margin-top: 0%;
+  /* border: solid 2px red; */
+  /* background: rgb(0,0,0);
+  background: linear-gradient(252deg, rgba(0,0,0,1) 62%, rgba(255,249,29,0.908000700280112) 100%); */
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgb(236, 231, 231) 5%, rgba(148, 142, 142, 0.76) 52%, rgba(245, 232, 52, 0.192) 90%); 
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 50%, rgba(252, 252, 76, 0.911)), url("./assets/fotosMain/amino4500Ena.jpg");
+  background-repeat: no-repeat;
+}
+
+.span{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 400px;
+}
+
+.h5amino{
+  color: rgb(173, 173, 5);
+  margin-left: 520px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.h1-desc{
+  margin-top: 40px;
+  color: black;
+  margin-left: 20px;
+  margin-left: 520px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h3-beneficios{
+  color:rgb(173, 173, 5);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.h5-modo-uso{
+  color: rgb(173, 173, 5);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.lista1{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 500px;
+  font-size: 20px;
+}
+
+.lista2{
+  color: black;
+  margin-left: 500px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.tabla-nutricional{
+  display: inline-block;
+  margin-right: 20%;
+  margin: auto;
+  /* border: solid 2px red; */
+  margin-top: 20%;
+}
+
+
+.container2{
+ display: inline-block;
+ justify-content: space-between; 
+ align-items: center; 
+ /* border: 3px green solid; */
+ padding-left: 20%; 
+ margin: 10%;
+ padding: 0%;
+  
+}
+
+.parrafo-tabla{
+  position: absolute;
+  /* border: solid 2px blue; */
+  top: 120%;
+  left: 10px;
+  width: 30%;
+  left: 7%;
+  color: white;
+}
+
+.parrafolargo{
+  color: black;
+  margin-left:27.5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+
+
+.contenedor2{
+  /* border: solid 2px red; */
+  width: 100%;
+  height: 450px;
+  /* margin-left: 500px; */
+  margin-block-end: auto;
+}
+
+
+
+
+/* ---PROTEINA DESTACADA---- */
+.flex-container-proteina{
+  display: flex;
+  height: 50%;
+  align-items: center; 
+  margin-top: 0%;
+  background: linear-gradient(180deg, rgb(236, 231, 231) 5%, rgba(148, 142, 142, 0.76) 52%, rgba(245, 232, 52, 0.192) 90%); 
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 50%, rgb(76, 240, 252)), url("./assets/fotosMain/proteinaEnaPerformance.webp");
+  background-repeat: no-repeat;
+}
+
+.contenedor-proteina{
+    /* border: solid 2px red; */
+    width: 100%;
+    height: 450px;
+    /* margin-left: 500px; */
+    margin-block-end: auto;
+}
+
+.span-proteina{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 400px;
+}
+
+.h1-desc-proteina{
+  margin-top: 40px;
+  color: black;
+  margin-left: 20px;
+  margin-left: 520px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h5-Proteina{
+  color: rgb(76, 240, 252);
+  margin-left: 520px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.h5-modo-uso-proteina{
+  color: rgb(76, 240, 252);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.h3-beneficios-proteina{
+  color:  rgb(76, 240, 252);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+
+.parrafo-largo-proteina{
+  color: black;
+  margin-left:27.5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.lista1-proteina{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 500px;
+  font-size: 20px;
+}
+
+
+
+.lista2-proteina{
+  color: black;
+  margin-left: 500px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+/* ---PREWORK DESTACADA---- */
+
+.flex-container-preWork{
+  display: flex;
+  height: 50%;
+  align-items: center; 
+  margin-top: 0%;
+  background: linear-gradient(180deg, rgb(236, 231, 231) 5%, rgba(148, 142, 142, 0.76) 52%, rgba(245, 232, 52, 0.192) 90%); 
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 50%, rgb(27, 0, 146)), url("./assets/fotosMain/preEntrenoStar.webp");
+  background-repeat: no-repeat;
+}
+
+.span-preWork{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 400px;
+}
+
+.contenedor-preWork{
+   width: 100%;
+   height: 450px;
+   margin-block-end: auto;
+}
+
+.h1-desc-preWork{
+  margin-top: 40px;
+  color: black;
+  margin-left: 20px;
+  margin-left: 520px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h5-PreWork{
+  color: rgb(27, 0, 146);
+  margin-left: 520px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.parrafo-largo-prework{
+  color: black;
+  margin-left:27.5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.lista1-preWork{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 500px;
+  font-size: 20px;
+}
+
+.h5-modo-uso-preWork{
+  color: rgb(27, 0, 146);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.lista2-preWork{
+  color: black;
+  margin-left: 500px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.h3-beneficios-preWork{
+  color: rgb(27, 0, 146);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+/* ---CREATINA DESTACADA---- */
+
+.flex-container-creatina{
+  display: flex;
+  height: 50%;
+  align-items: center; 
+  margin-top: 0%;
+  background: linear-gradient(180deg, rgb(236, 231, 231) 5%, rgba(148, 142, 142, 0.76) 52%, rgba(245, 232, 52, 0.192) 90%); 
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 50%, rgba(248, 0, 0, 0.945)), url("./assets/fotosMain/creatinaMervick.jpg");
+  background-repeat: no-repeat;
+}
+
+.span-creatina{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 400px;
+}
+
+.contenedor-creatina{
+   width: 100%;
+   height: 450px;
+   margin-block-end: auto;
+}
+
+.h1-desc-creatina{
+  margin-top: 40px;
+  color: black;
+  margin-left: 20px;
+  margin-left: 520px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  /* font-weight: bold; */
+}
+
+.h5-creatina{
+  color: rgb(4, 0, 255);
+  margin-left: 520px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.h3-beneficios-creatina{
+  color: rgb(4, 0, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+.lista2-creatina{
+  color: black;
+  margin-left: 500px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.h5-modo-uso-creatina{
+  color: rgb(4, 0, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.lista1-creatina{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 500px;
+  font-size: 20px;
+}
+.parrafo-largo-creatina{
+  color: black;
+  margin-left:27.5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+/* Page quienes somos */
+
+.fotoSomos{
+  width: 500px ;
+  height: 500px;
+  margin-left: 30% ;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.cajaFotoSomos{
+    display: flex;
+    align-content: center;
+   
+}
